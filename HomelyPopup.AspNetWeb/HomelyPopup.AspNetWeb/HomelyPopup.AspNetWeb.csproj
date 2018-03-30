@@ -181,6 +181,16 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HomelyPopup.AspNetWeb.Core\HomelyPopup.AspNetWeb.Core.csproj">
+      <Project>{07f953d7-8a11-4672-b2b6-28703be2a42a}</Project>
+      <Name>HomelyPopup.AspNetWeb.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HomelyPopup.AspNetWeb.Infrastructure\HomelyPopup.AspNetWeb.Infrastructure.csproj">
+      <Project>{16c795da-777b-46e0-86cd-79a80ee4ad33}</Project>
+      <Name>HomelyPopup.AspNetWeb.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

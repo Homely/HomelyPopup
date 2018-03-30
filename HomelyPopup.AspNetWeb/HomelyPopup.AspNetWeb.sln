@@ -5,6 +5,22 @@ VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomelyPopup.AspNetWeb", "HomelyPopup.AspNetWeb\HomelyPopup.AspNetWeb.csproj", "{A94C5D47-FCA3-404A-BE8F-0ED4FA579829}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Core", "1. Core", "{5F8D569E-0D09-48DA-A8E5-9FA1CD6C5834}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Infrastructure", "2. Infrastructure", "{8597FC93-AB88-4930-883A-BFEE18779C4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Host", "3. Host", "{4C25AEE7-338B-4328-A09B-C47569CD0485}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Tests", "4. Tests", "{2C499646-DFCA-45FB-8E8A-31539AF848C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomelyPopup.AspNetWeb.Core", "HomelyPopup.AspNetWeb.Core\HomelyPopup.AspNetWeb.Core.csproj", "{07F953D7-8A11-4672-B2B6-28703BE2A42A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomelyPopup.AspNetWeb.Infrastructure", "HomelyPopup.AspNetWeb.Infrastructure\HomelyPopup.AspNetWeb.Infrastructure.csproj", "{16C795DA-777B-46E0-86CD-79A80EE4AD33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomelyPopup.AspNetWeb.UnitTests", "HomelyPopup.AspNetWeb.UnitTests\HomelyPopup.AspNetWeb.UnitTests.csproj", "{64D0BB36-FF78-4A9D-97FE-7D0850EE34AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomelyPopup.AspNetWeb.IntegrationTests", "HomelyPopup.AspNetWeb.IntegrationTests\HomelyPopup.AspNetWeb.IntegrationTests.csproj", "{88BCCE8A-6008-4808-A603-592117C27D31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +31,32 @@ Global
 		{A94C5D47-FCA3-404A-BE8F-0ED4FA579829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A94C5D47-FCA3-404A-BE8F-0ED4FA579829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A94C5D47-FCA3-404A-BE8F-0ED4FA579829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F953D7-8A11-4672-B2B6-28703BE2A42A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F953D7-8A11-4672-B2B6-28703BE2A42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F953D7-8A11-4672-B2B6-28703BE2A42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F953D7-8A11-4672-B2B6-28703BE2A42A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C795DA-777B-46E0-86CD-79A80EE4AD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C795DA-777B-46E0-86CD-79A80EE4AD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C795DA-777B-46E0-86CD-79A80EE4AD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C795DA-777B-46E0-86CD-79A80EE4AD33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D0BB36-FF78-4A9D-97FE-7D0850EE34AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D0BB36-FF78-4A9D-97FE-7D0850EE34AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D0BB36-FF78-4A9D-97FE-7D0850EE34AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D0BB36-FF78-4A9D-97FE-7D0850EE34AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BCCE8A-6008-4808-A603-592117C27D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BCCE8A-6008-4808-A603-592117C27D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BCCE8A-6008-4808-A603-592117C27D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BCCE8A-6008-4808-A603-592117C27D31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A94C5D47-FCA3-404A-BE8F-0ED4FA579829} = {4C25AEE7-338B-4328-A09B-C47569CD0485}
+		{07F953D7-8A11-4672-B2B6-28703BE2A42A} = {5F8D569E-0D09-48DA-A8E5-9FA1CD6C5834}
+		{16C795DA-777B-46E0-86CD-79A80EE4AD33} = {8597FC93-AB88-4930-883A-BFEE18779C4A}
+		{64D0BB36-FF78-4A9D-97FE-7D0850EE34AA} = {2C499646-DFCA-45FB-8E8A-31539AF848C9}
+		{88BCCE8A-6008-4808-A603-592117C27D31} = {2C499646-DFCA-45FB-8E8A-31539AF848C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6C8B32B-08AD-4910-A217-40BAB0FEB279}
