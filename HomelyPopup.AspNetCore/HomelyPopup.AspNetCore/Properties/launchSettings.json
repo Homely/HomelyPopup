@@ -1,0 +1,21 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:54121/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "HomelyPopup.AspNetCore": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/orders",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:54122/"
+    }
+  }
+}
