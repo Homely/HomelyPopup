@@ -16,4 +16,9 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HomelyPopup.AspNetCoreWeb.Core\HomelyPopup.AspNetCoreWeb.Core.csproj" />
+    <ProjectReference Include="..\HomelyPopup.AspNetCoreWeb.Infrastructure\HomelyPopup.AspNetCoreWeb.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

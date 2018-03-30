@@ -3,7 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomelyPopup.AspNetCoreWeb", "HomelyPopup.AspNetCoreWeb\HomelyPopup.AspNetCoreWeb.csproj", "{0675A962-4739-4817-9654-A18F38BFD21F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomelyPopup.AspNetCoreWeb.API", "HomelyPopup.AspNetCoreWeb.API\HomelyPopup.AspNetCoreWeb.API.csproj", "{0675A962-4739-4817-9654-A18F38BFD21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomelyPopup.AspNetCoreWeb.Core", "HomelyPopup.AspNetCoreWeb.Core\HomelyPopup.AspNetCoreWeb.Core.csproj", "{8039D592-2D58-4F2D-A82D-6A8B4575765F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Core", "1. Core", "{E840014F-5229-46CA-973B-21BCB16659F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Infrastructure", "2. Infrastructure", "{E59DC270-72BC-4343-B21C-DB44186D5C7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Host", "3. Host", "{7744A8FB-0E7A-42C2-BF10-7A3B30ED4D55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Tests", "4. Tests", "{59E24678-129A-4819-AC0E-6552EBC407DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomelyPopup.AspNetCoreWeb.Infrastructure", "HomelyPopup.AspNetCoreWeb.Infrastructure\HomelyPopup.AspNetCoreWeb.Infrastructure.csproj", "{07A2B107-432F-4340-AF9A-A554F1970CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomelyPopup.AspNetCoreWeb.UnitTests", "HomelyPopup.AspNetCoreWeb.UnitTests\HomelyPopup.AspNetCoreWeb.UnitTests.csproj", "{A86261A9-0CD6-4E5D-97C3-D95BD74B6B84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomelyPopup.AspNetCoreWeb.IntegrationTests", "HomelyPopup.AspNetCoreWeb.IntegrationTests\HomelyPopup.AspNetCoreWeb.IntegrationTests.csproj", "{2E207ABC-E2D1-461E-9036-5F80C3992117}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +31,32 @@ Global
 		{0675A962-4739-4817-9654-A18F38BFD21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0675A962-4739-4817-9654-A18F38BFD21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0675A962-4739-4817-9654-A18F38BFD21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8039D592-2D58-4F2D-A82D-6A8B4575765F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8039D592-2D58-4F2D-A82D-6A8B4575765F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8039D592-2D58-4F2D-A82D-6A8B4575765F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8039D592-2D58-4F2D-A82D-6A8B4575765F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A2B107-432F-4340-AF9A-A554F1970CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A2B107-432F-4340-AF9A-A554F1970CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A2B107-432F-4340-AF9A-A554F1970CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A2B107-432F-4340-AF9A-A554F1970CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A86261A9-0CD6-4E5D-97C3-D95BD74B6B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86261A9-0CD6-4E5D-97C3-D95BD74B6B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86261A9-0CD6-4E5D-97C3-D95BD74B6B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86261A9-0CD6-4E5D-97C3-D95BD74B6B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E207ABC-E2D1-461E-9036-5F80C3992117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E207ABC-E2D1-461E-9036-5F80C3992117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E207ABC-E2D1-461E-9036-5F80C3992117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E207ABC-E2D1-461E-9036-5F80C3992117}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0675A962-4739-4817-9654-A18F38BFD21F} = {7744A8FB-0E7A-42C2-BF10-7A3B30ED4D55}
+		{8039D592-2D58-4F2D-A82D-6A8B4575765F} = {E840014F-5229-46CA-973B-21BCB16659F7}
+		{07A2B107-432F-4340-AF9A-A554F1970CC0} = {E59DC270-72BC-4343-B21C-DB44186D5C7F}
+		{A86261A9-0CD6-4E5D-97C3-D95BD74B6B84} = {59E24678-129A-4819-AC0E-6552EBC407DA}
+		{2E207ABC-E2D1-461E-9036-5F80C3992117} = {59E24678-129A-4819-AC0E-6552EBC407DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F9B38F6-AE46-4BE2-9D87-F695CEBF6236}
