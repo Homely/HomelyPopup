@@ -20,4 +20,6 @@ Here is the connection string to the database (SQL Server instance in Azure):
 Server=tcp:homelypopupstore.database.windows.net,1433;Initial Catalog=HomelyPopupStore;Persist Security Info=False;User ID=readonlylogin;Password=homely!readonly!2018;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 ```
 
+Feel free to scaffold a DB controller/class to get a headstart ;)
+
 Good luck! :)
