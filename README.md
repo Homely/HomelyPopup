@@ -14,7 +14,7 @@ There is no code in any of the templates other than what File > New in Visual St
 
 However, seperate projects have been added to each sln, to give the candidate a 'hint' to the type of work required.
 
-Here is the connection string to the database:
+Here is the connection string to the database (SQL Server instance in Azure):
 > Server=tcp:homelypopupstore.database.windows.net,1433;Initial Catalog=HomelyPopupStore;Persist Security Info=False;User ID=readonlylogin;Password=homely!readonly!2018;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 
 Good luck! :)
