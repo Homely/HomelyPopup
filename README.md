@@ -12,7 +12,7 @@ You can choose from one of the following project templates:
 
 There is no code in any of the templates other than what File > New in Visual Studio brings.
 
-However, seperate projects have been added to each sln, to give the candidate a 'hint' to the type of work required.
+However, seperate projects have been added to each sln, to give the candidate a 'hint' to the type of code, patterns and seperation we like to see.
 
 If you prefer, you can use your own project template instead.
 
@@ -22,6 +22,6 @@ Here is the connection string to the database (SQL Server instance in Azure):
 Server=tcp:homelypopupstore.database.windows.net,1433;Initial Catalog=HomelyPopupStore;Persist Security Info=False;User ID=readonlylogin;Password=homely!readonly!2018;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 ```
 
-Feel free to check out the DB structure, scaffold a DB controller/class etc to get a headstart ;)
+(note: there is a firewall on the DB, so only whitelisted IP's will gain access..which we can arrange at the time of the interview)
 
 Good luck! :)
