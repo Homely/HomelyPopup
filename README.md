@@ -14,7 +14,7 @@ There is no code in any of the templates other than what File > New in Visual St
 
 However, seperate projects have been added to each sln, to give the candidate a 'hint' to the type of work required.
 
-If you prefer, you can use your own project template.
+If you prefer, you can use your own project template instead.
 
 Here is the connection string to the database (SQL Server instance in Azure):
 
